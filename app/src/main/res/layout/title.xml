@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+         android:id="@+id/button1"
+         android:layout_width="100dp"
+         android:layout_height="39dp"
+        android:background="@drawable/play_100x30"
+         android:drawableLeft="@layout/onclickplay"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp" />
+         
+    <Button
+         android:id="@+id/button3"
+         android:layout_width="100dp"
+         android:layout_height="44dp"
+        android:background="@layout/onclicksetting"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1" />
+    
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="100dp"
+         android:layout_height="44dp"
+         android:layout_above="@+id/button3"
+         android:layout_alignLeft="@+id/button3"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="172dp"
+         android:background="@drawable/exit_100x30"
+         android:drawableLeft="@layout/onclickexit" />
+
+
+
+
+
+</RelativeLayout>

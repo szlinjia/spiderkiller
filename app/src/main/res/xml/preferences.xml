@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res/com.helloworld">
+   
+ 	<Preference 
+    	    android:title="The highest score"
+    	    android:summary="0"
+    	    android:key="prefs_score"/> 
+    	    
+
+    <CheckBoxPreference
+            android:title="Music"
+            android:summary="Toggle music on/off"
+            android:defaultValue="true"
+            android:key="prefs_music" />  
+  	<CheckBoxPreference
+            android:title="Sound FX"
+            android:summary="Toggle sound effects on/off"
+            android:defaultValue="true"
+            android:key="prefs_sound" />        
+
+        	  
+</PreferenceScreen>
